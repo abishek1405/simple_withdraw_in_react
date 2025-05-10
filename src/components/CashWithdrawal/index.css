@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.profilename {
+  background-color: #c7d2fe;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 300px;
+  width: fit-content;
+  height: 30px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.secont {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  padding: 30px;
+  width: 40vw;
+  border-radius: 10px;
+}
+
+.profiledet {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.balancedet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
